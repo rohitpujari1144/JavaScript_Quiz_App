@@ -1,0 +1,50 @@
+
+.newContainer{
+    max-width: 800px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(225, 211, 211);
+}
+
+#MarkContainer{
+    max-width: 500px;
+    height: 200px;
+    border:2px solid black;
+    border-radius:10px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(213, 180, 173);
+}
+
+.reloadQuizButton{
+    position:relative;
+    left:50%; 
+    top:20%;
+    transform: translate(-50%, -50%);
+    font-size:130%;
+    font-family:Trebuchet MS;
+    font-weight: bold;
+}
+
+.submitButton{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    margin-top: 30px;
+}
+
+.options:hover{
+    color: rgb(255, 44, 32);
+    text-decoration: underline;
+    zoom: 107%;
+}

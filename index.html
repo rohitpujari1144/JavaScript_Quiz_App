@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Quiz App</title>
+</head>
+<body>
+    <div class="container"  id="MarkContainer" style="visibility:hidden">
+        <h2 id="marks" class="my-4" style="text-align: center; font-family:Trebuchet MS; font-weight:bold"></h2>
+        <button class="btn btn-primary reloadQuizButton" onClick=location.reload()>Reload Quiz</button>
+    </div>
+
+    <div class="container newContainer" id="newContainer">
+        <h2 id="questionHeading" style="text-align: center; margin-top:5px; font-family:Trebuchet MS; font-weight:bold; color:rgb(42, 30, 210)">Question text</h2>
+        
+        <ul type="none">
+            <li>
+                <h5 style="font-family:Trebuchet MS; font-weight:bold; margin-top:10px;">
+                    <input type="radio" name="optionList" id="a" class="optionList">
+                    <label for="a" id="aOption" class="options">Option List</label>
+                </h5>  
+            </li>
+            <li>
+                <h5 style="font-family:Trebuchet MS; font-weight:bold; margin-top:10px;">
+                    <input type="radio" name="optionList" id="b" class="optionList">
+                    <label for="a" id="bOption" class="options">Option List</label>
+                </h5>
+            </li>
+            <li>
+                <h5 style="font-family:Trebuchet MS; font-weight:bold; margin-top:10px;">
+                    <input type="radio" name="optionList" id="c" class="optionList">
+                    <label for="a" id="cOption" class="options">Option List</label>
+                </h5>
+            </li>
+            <li>
+                <h5 style="font-family:Trebuchet MS; font-weight:bold; margin-top:10px;">
+                    <input type="radio" name="optionList" id="d" class="optionList">
+                    <label for="a" id="dOption" class="options">Option List</label>
+                </h5>
+            </li>
+        </ul>
+
+        <button type="button" class="btn btn-primary submitButton" id="submit">Submit</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
